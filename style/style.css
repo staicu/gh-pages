@@ -1,10 +1,10 @@
-﻿
+
 
 body
 {
     font: normal .80em 'trebuchet ms' , arial, sans-serif;
     background: color: #FFF;
-    background-color: #33CCFF;
+    background-color: transparent;
 }
 
 p
@@ -50,7 +50,10 @@ ul li
 #logo
 { width: 898px;
   position: relative;
-  height: 148px;}
+  height: 148px;
+    background: #FFE773;
+0ff ;
+}
 
 #logo #logo_text 
 { position: absolute; 
@@ -80,7 +83,8 @@ ul li
 { width: 898px;
   height: 52px;
   padding: 0;
-  background: #00F;} 
+  background: #02a7f9;
+} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -113,7 +117,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
-  background: #00F;} 
+  background: #02a7f9
+;
+} 
 
 .sidebar
 { float: right;

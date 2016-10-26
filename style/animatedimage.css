@@ -1,7 +1,7 @@
 /* Custom Stylesheet */
 .photos {margin: 0 auto; position: 
          relative; width: 50%; min-width: 500px; 
-         float:left;}
+         position:relative;}
 
 .photos img {
 	position: absolute;
@@ -9,7 +9,7 @@
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
-    padding: 10px 10px 30px 10px;
+    padding: 0px 10px 30px 10px;
     background: white;
     border: solid 1px #ccc;
     width: 25%;
@@ -41,8 +41,8 @@
 }
 
 .photos img:nth-of-type(1) {
-    left: 50px;
-    top: 50px;
+    left: 0px;
+    top: 0px;
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -o-transform: rotate(5deg);
@@ -50,8 +50,8 @@
 }
  
 .photos img:nth-of-type(2) {
-    left: 150px;
-    top: 100px;
+    left: 60px;
+    top: 40px;
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
@@ -59,8 +59,8 @@
 }
  
 .photos img:nth-of-type(3) {
-    left: 250px;
-    top: 50px;
+    left: 120px;
+    top: 20px;
     -webkit-transform: rotate(7deg);
     -moz-transform: rotate(7deg);
     -o-transform: rotate(7deg);
@@ -68,8 +68,8 @@
 }
  
 .photos img:nth-of-type(4) {
-    left: 350px;
-    top: 150px;
+    left: 180px;
+    top: 0px;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
@@ -77,8 +77,8 @@
 }
  
 .photos img:nth-of-type(5) {
-    left: 450px;
-    top: 50px;
+    left: 240px;
+    top: 0px;
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
