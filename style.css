@@ -14,8 +14,7 @@ body{
     margin:auto;
     width: 60%;
     height: 900px;
-    padding:0px;0;0;100px;
-   
+    
     font-family: 'Butterfly Kids', cursive;
     background-image:url(dadpic.jpg);
     background-size:contain;
@@ -103,58 +102,66 @@ p:last-child>a:hover{
 
 /*Coloring buttons*/
 #v1 {
-    background-color: #F00F0F
+    background-color: #F00F0F;
+    border-radius:30px;
 }
 #v2 {
-    background-color: #3C0FF0
+    background-color: #3C0FF0;
+    border-radius:30px;
 }
 #v3 {
-    background-color: #0FF083
+    background-color: #0FF083;
+    border-radius:30px;
 }
 #v4 {
-    background-color: #F0E80F
+    background-color: #F0E80F;
+    border-radius:30px;
 }
 
 #v1:hover {
-    background-color: #0FF083
+    background-color: #0FF083;
 }
 
 #v2:hover {
-    background-color: #F0E80F
+    background-color: #F0E80F;
 }
 #v3:hover {
-    background-color: #F00F0F
+    background-color: #F00F0F;
 }
 #v4:hover {
-    background-color: #3C0FF0
+    background-color: #3C0FF0;
 }
 
 #h1 {
-    background-color: #F00F0F
+    background-color: #F00F0F;
+    border-radius:30px;
 }
 
 #h2 {
-    background-color: #3C0FF0
+    background-color: #3C0FF0;
+    border-radius:30px;
 }
 #h3 {
-    background-color: #0FF083
+    background-color: #0FF083;
+    border-radius:30px;
 }
 #h4 {
-    background-color: #F0E80F
+    background-color: #F0E80F;
+    border-radius:30px;
 }
 
 #h1:hover {
-    background-color: #0FF083
+    background-color: #0FF083;
 }
 
 #h2:hover {
-    background-color: #F0E80F
+    background-color: #F0E80F;
 }
 #h3:hover {
-    background-color: #F00F0F
+    background-color: #F00F0F;
 }
 #h4:hover {
-    background-color: #3C0FF0
+    background-color: #3C0FF0;
 }
 
 
@@ -202,7 +209,7 @@ header li a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
 }
 
 #sidebar li a {
