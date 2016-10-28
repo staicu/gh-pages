@@ -1,0 +1,126 @@
+/*global settings*/
+p{
+text-align:justify;
+
+}
+/*Size and position of division*/
+p::first-letter{
+    color: #0FF;
+    font-size:1.5em;
+    font-style: ;
+}
+#body{
+
+    margin:auto;
+    width: 60%;
+    height: 700px;
+    padding:80px;0;0;100px;
+    background-image:url(glove2.jpg);
+    background-size:820px 800px; 
+    background-repeat:no-repeat;
+    background-position: center;
+   
+}
+#footer h4{
+    
+    text-align:center;
+}
+
+
+#sidebar{
+    float:left;
+     padding: 20px;
+    width: 110px;
+}
+
+#signature{
+    float: right;
+}
+
+/*navigation bar*/
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    background-color: #111;
+}
+/*vertical navigation side bar*/
+#vertnavbav{
+    color:#000;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#sidebar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Color buttons*/
+#v1 {
+    background-color: #F00F0F
+}
+#v2 {
+    background-color: #3C0FF0
+}
+#v3 {
+    background-color: #0FF083
+}
+#v4 {
+    background-color: #F0E80F
+}
+
+#sidebar li a:hover{
+    background-color: #111;
+
+}
+#h1 {
+    background-color: #F00F0F
+}
+#h2 {
+    background-color: #3C0FF0
+}
+#h3 {
+    background-color: #0FF083
+}
+#h4 {
+    background-color: #F0E80F
+}
+
+#sidebar li a:hover{
+    background-color: #111;
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+ /*site content*/
+#content{
+    padding: 20px;
+    width: 600px;
+    float: right
+}

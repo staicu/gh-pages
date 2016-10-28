@@ -3,7 +3,7 @@
 body
 {
     font: normal .80em 'trebuchet ms' , arial, sans-serif;
-    background: color: #FFF;
+    background:  #FFF;
     background-color: transparent;
 }
 
@@ -12,7 +12,7 @@ p
     padding: 0 0 30px 0;
     line-height: 1.7em;
     text-align: justify;
-    color: #FFFF00;
+    color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -52,7 +52,7 @@ ul li
   position: relative;
   height: 148px;
     background: #FFE773;
-0ff ;
+
 }
 
 #logo #logo_text 
@@ -67,6 +67,8 @@ ul li
     text-transform: none;
     margin: 0px;
 }
+
+
 
 
 #logo_text h2
@@ -110,17 +112,31 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #00F;
-  background: #FFFF00;;}
+  background: #FFFF00;}
 
 #site_content
 { width: 854px;
   overflow: hidden;
   margin: 0 auto auto auto;
   padding: 0 24px 20px 20px;
-  background: #02a7f9;
+  background: #5693d7;
   font: normal 120% arial, sans-serif;
 
 } 
+#iframe_align 
+{
+ align:center;
+frameborder="0" style="border:0" allowfullscreen;}
+
+.thumb
+{
+border:2px; width:120px; height:100px;}
+
+.label_text1
+{ font-size: 110%;
+  color:yellow;
+}
+
 
 .sidebar
 { float: right;
@@ -172,7 +188,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #footer
 { width: 898px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  font: normal 90% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
@@ -180,5 +196,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
+#address
+{
+   text-align:center;}
 
      
