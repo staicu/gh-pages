@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Add a link to contacts1.dtd -->
+<!DOCTYPE contacts SYSTEM "contact1.dtd">
+<contacts>
+	<contact>
+		<name>
+			<first>Joseph</first>
+			<middle>John</middle>
+			<last>Fawcett</last>
+		</name>
+		<location>
+			<latitude>50.7218</latitude>
+			<longitude>-3.533617</longitude>
+		</location>
+		<phone>001-234-567-8910</phone>
+		<knows>John Doe, Danny Ayers</knows>
+		<description>
+			Joseph is an 
+			<em>XML developer</em>
+			.<br/>Joseph 
+			<strong>loves </strong> 
+			XML!
+		</description>
+	</contact>
+</contacts>

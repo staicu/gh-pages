@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE contacts SYSTEM "contact3.dtd">
+<!-- Add a link to contacts3.dtd -->
+<contacts source="XML Test 1" version="1.0 Fall 2016">
+	<contact person="Joe_Fawcett" tags="XML developer">
+		<name>
+			<first>Joseph</first>
+			<first>John</first>
+			<last>Fawcett</last>
+		</name>
+		<location>
+			<address>Exeter, UK</address>
+			<latitude>50.7218</latitude>
+			<longitude>-3.533617</longitude>
+		</location>
+		<phone kind="Home">001-234-567-8910</phone>
+		<knows contacts="John_Doe Danny_Ayers"/>
+		<description>Joseph is an <em>XML developer</em>.<br/>Joseph <strong>loves</strong> XML!</description>
+	</contact>
+	<contact person="John Doe" tags="XML consultant">
+		<name>
+			<first>John</first>
+			<last>Doe</last>
+		</name>
+		<location>
+			<address>Address is not known</address>
+		</location>
+		<phone>321 321 3213</phone>
+		<knows contacts="Joseph Fawcett Danny_Ayers"/>
+		<description>Senior Technical Consultant for LMX.</description>
+	</contact>
+</contacts>
