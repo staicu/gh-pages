@@ -1,144 +1,143 @@
-
-
 /*style for body*/
-#body{
-    min-height: 800px;
- width:80%;
-    padding:20px;
+
+#body {
+    padding: 1%;
 }
 
-
-/*style for the main*/
-main{
-   position:center;
-}
-
-/* style header*/
-header
-{
-     background-image:url(../images/img1.jpg);
-    background-size: contain;
-    padding:10px
-    
-}
 
 /*style ul lsit*/
+
 nav ul {
-    
-	padding: 0;
+    padding-top: 50px;
 }
+
 
 /* Style for nav li element */
+
 nav li {
-	background-color: #4E5957; 
-	margin: 0.5em; 
-	padding: 1em;  
-	text-align: center;
-	list-style-type: none; 
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+    list-style-type: none;
 }
+
 
 /* Style for nav anchor elements */
-nav li a { 
-	color: #FFFFFF; 
-	text-decoration: none; 
+
+nav li a {
+    color: #00F;
+    text-decoration: none;
 }
+
 
 /* Style specifies clear, margin, background color, padding, and border for the main element */
-main { 
-	margin-top: 3%;
-	padding: 3%;
-	border: solid 0.25em #4E5957;
-	border-radius:1em;
-    max-height; 200px;
+
+main {
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .5%;
+    border-radius: 1em;
+    
 }
+
 
 /* Style for the section element */
+
 section {
-	background-color: #BCC2C1;
-	margin: 0.5em;
-	padding: 0.5em;
-	border-radius: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
 }
+
 
 /* Style for the section h2 element */
+
 section h2 {
-	border-bottom: solid 0.1em #4E5957;
+    border-bottom: solid 0.1em #4E5957;
 }
+
 
 /* Style for article element */
+
 article {
-	margin: 2%;
-	padding: 2%;
-	background-color: #BCC2C1;
-	border-radius: 1em;
+    margin: 2%;
+    padding: 2%;
+    background-color: #BCC2C1;
+    border-radius: 1em;
 }
 
-/* Style specifies text properties for the myname element */
-.myname {	
-	font-family: Futura, Calibri, sans-serif;
-	font-size: 2em;
-	text-shadow: 2px 2px 5px #4E5957;
-	text-align: left;
+
+/* Style specifies margin for the nav element */
+
+nav {
+padding-top:2   %   ;
+    padding-left:10%;
+    padding-right:10%;
 }
 
+
+/* Style specifies display and padding for the navigation list items */
+
+nav li {
+    display: inline;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+/* Style specifies color, background color, padding, border, margin, and removes the underline for list item links */
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #D1E0E0;
+    padding: 1% 2% 1% 2%;
+    border: 0.1em black solid;
+    border-radius: 0em 1em 0em 1em;
+    margin: 1em;
+}
 
 
 /* Style for table, th, and td elements */
-table, th, td {
-	padding: 0.2em;
+
+table,
+th,
+td {
+    padding: 0.2em;
 }
-
-/* Styles for Tablet Viewport */
-@media only screen and (min-width: 695px) {
-
-/* Style to format links within the header element */
-header a {
-	color: #4E5957;
-	background-color: transparent;
-	padding-right: 5%;
-	text-decoration: underline;
-    
-}
-
-/* Style specifies margin for the nav element */
-nav {
-	margin-top: 2em;
-}
-
-/* Style specifies display and padding for the navigation list items */
-nav li{
-	display: inline;
-	padding: 0;
-	background-color: transparent; 
-}
-
-/* Style specifies color, background color, padding, border, margin, and removes the underline for list item links */
-nav li a {
-		text-decoration: none;
-		color: #000000;
-		background-color: #D1E0E0;
-		padding: 1% 2% 1% 2%;
-		border: 0.1em black solid;
-		border-radius: 0em 1em 0em 1em;
-		margin: 1em;
-}
-
-<br/>
-
 
 
 /* Style for table element */
-table {
-	margin-left: auto;
-	margin-right: auto;
 
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* Style for table, th, and td elements */
-table, th, td {
-	border-collapse: collapse;
-	border: solid 0.1em #FFFFFF;
-	padding: 1em;
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: solid 0.1em #FFFFFF;
+    padding: 1em;
 }
 
 
+
+
+
+/* style header*/
+
+header {
+    padding-left:10%;
+    padding-right: 10%;
+    font-family: 'Just Another Hand', cursive;
+    text-shadow: 2px 5px 5px #42eef4;
+    color: #00f;
+    height: 200px;
+    float: inherit;s
+}
