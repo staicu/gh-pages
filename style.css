@@ -16,7 +16,7 @@ body{
     height: 900px;
     
     font-family: 'Butterfly Kids', cursive;
-    background-image:url(dadpic.jpg);
+    background-image:url(img/dadpic.jpg);
     background-size:contain;
     font-size:23px;
     
@@ -24,7 +24,7 @@ body{
 
 }
 main{
-    background-image:url(glove2.jpg);
+    background-image:url(img/glove2.jpg);
     background-size: contain;
     
     	padding: 40px;
@@ -80,8 +80,9 @@ footer h4{
 
 p:last-child{
     background: #0FF083;
-    text-align:right; 
+    text-align:center; 
     color:azure;
+    border-radius:30px;
 }
 p:last-child>a{
     color: azure;
@@ -104,6 +105,7 @@ p:last-child>a:hover{
 #v1 {
     background-color: #F00F0F;
     border-radius:30px;
+
 }
 #v2 {
     background-color: #3C0FF0;
@@ -120,16 +122,22 @@ p:last-child>a:hover{
 
 #v1:hover {
     background-color: #0FF083;
+    padding: 40px;
 }
 
 #v2:hover {
     background-color: #F0E80F;
+    padding: 40px;
+
 }
 #v3:hover {
-    background-color: #F00F0F;
+    background-color: #F00F0F;    
+    padding: 40px;
+
 }
 #v4:hover {
     background-color: #3C0FF0;
+    padding: 40px;
 }
 
 #h1 {
@@ -152,22 +160,26 @@ p:last-child>a:hover{
 
 #h1:hover {
     background-color: #0FF083;
+
 }
 
 #h2:hover {
     background-color: #F0E80F;
+
 }
 #h3:hover {
     background-color: #F00F0F;
+
 }
 #h4:hover {
     background-color: #3C0FF0;
+
 }
 
 
 /*navigation bar*/
 header{
-    
+    padding-bottom:20px;
     
 }
 header ul {
