@@ -1,0 +1,10 @@
+p::first-letter{
+    color: #3C0FF0;
+    font-size:30px;
+}
+
+body{
+    width: 60%;
+    padding-left:200px
+}
+
