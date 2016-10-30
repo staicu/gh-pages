@@ -10,7 +10,10 @@ header{
 
 img[src*="const"]{
 background-color: #00F;
-    padding: 2%;
+
+}
+img{
+    
 }
 
 .container{
