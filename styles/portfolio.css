@@ -1,14 +1,44 @@
 /*style for body*/
-
-#body {
-    padding: 1%;
+header{
+    
+    position:fixed;
+    background-image: url(../images/img1.jpg);
+    background-size:contain;
+    
 }
 
 
+img[src*="const"]{
+background-color: #00F;
+    padding: 2%;
+}
+
+.container{
+    
+
+}
+
+#body {
+    position: absolute;}
+
+h1{
+    text-align:right;
+    font-family: 'Coiny', cursive;
+    font-style: italic;
+    font-size:3em;
+    text-shadow:10px 5px 10px #1df;
+    float:right;
+    color:azure;
+}
+
 /*style ul lsit*/
 
+nav{
+    position:fixed;
+}
+
 nav ul {
-    padding-top: 50px;
+width: 900px
 }
 
 
@@ -25,7 +55,7 @@ nav li {
 /* Style for nav anchor elements */
 
 nav li a {
-    color: #00F;
+    color:transparent;
     text-decoration: none;
 }
 
@@ -38,6 +68,7 @@ main {
     padding-right: 10%;
     padding-top: .5%;
     border-radius: 1em;
+    padding-top:220px
 }
 
 
@@ -56,24 +87,25 @@ section h2 {
     border-bottom: solid 0.1em #4E5957;
 }
 
-
 /* Style for article element */
 
 article {
     margin: 2%;
     padding: 2%;
-    background-color: #BCC2C1;
     border-radius: 1em;
+    font-family:Didot,Arial,Calibri,Garamond,Georgia,Helvetica,Times New Roman,Trebuchet MS;
+    font-size:25px;
 }
 
+a:linkn, a:visited ,a:hover{ 
+    color: none;
+    text-decoration:none;
+
+}
 
 /* Style specifies margin for the nav element */
 
-nav {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 
 
 /* Style specifies display and padding for the navigation list items */
@@ -89,11 +121,10 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #000000;
-    background-color: #D1E0E0;
+    background-color:transparent;
     padding: 1% 2% 1% 2%;
-    border: 0.1em black solid;
-    border-radius: 0em 1em 0em 1em;
-    margin: 1em;
+    color: aqua;
+    text-shadow: 
 }
 
 
@@ -132,9 +163,7 @@ header {
     padding-right: 10%;
     font-family: 'Just Another Hand', cursive;
     text-shadow: 2px 5px 5px #42eef4;
-    color: #00f;
     height: 200px;
-    float: inherit;
 }
 
 footer {
