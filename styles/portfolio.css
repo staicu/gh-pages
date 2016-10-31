@@ -1,28 +1,34 @@
+@font-face {
+    
+    font-family:myfont;
+    src: url(../kg_inimitable_original/KGInimitableOriginal.ttf);}
+
+
 /*style for body*/
 header{
     
     position:fixed;
     background-image: url(../images/img1.jpg);
     background-size:contain;
+    background-repeat: repeat;
     
+    /*background-image: url(../images/construction.gif);
+    background-repeat:no-repeat;
+	background-position:top right;*/ 
 }
 
 
 img[src*="const"]{
 background-color: #00F;
-
-}
-img{
-    
+    padding: .5%;
 }
 
-.container{
-    
-
-}
 
 #body {
-    position: absolute;}
+    position: absolute;
+
+
+}
 
 h1{
     text-align:right;
@@ -75,20 +81,6 @@ main {
 }
 
 
-/* Style for the section element */
-
-section {
-    margin: 0.5em;
-    padding: 0.5em;
-    border-radius: 1em;
-}
-
-
-/* Style for the section h2 element */
-
-section h2 {
-    border-bottom: solid 0.1em #4E5957;
-}
 
 /* Style for article element */
 
@@ -97,7 +89,26 @@ article {
     padding: 2%;
     border-radius: 1em;
     font-family:Didot,Arial,Calibri,Garamond,Georgia,Helvetica,Times New Roman,Trebuchet MS;
+    font-family: myfont;
     font-size:25px;
+    font-stretch: extra-expanded;
+    color:#888;
+    background: url(../images/img10.jpg) top left no-repeat;
+
+}
+a{
+     color:inherit;
+    text-decoration: none;
+}
+
+article>h2{
+    
+    font-style:italic;
+}
+
+article:first-child::first-letter{
+    color:red;
+    font-size: 100px;
 }
 
 a:linkn, a:visited ,a:hover{ 
