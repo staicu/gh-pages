@@ -93,7 +93,6 @@ article {
     font-stretch: extra-expanded;
     color:#888;
     background: url(../images/img10.jpg) top left no-repeat;
-    text-shadow: 10px;
 
 }
 a{
@@ -113,8 +112,7 @@ article:first-child::first-letter{
     font-size: 100px;
 }
 
-a:linkn, a:visited ,a:hover{ 
-    color: none;
+a:link, a:visited ,a:hover{ 
     text-decoration:none;
 
 }
@@ -140,7 +138,6 @@ nav li a {
     background-color:transparent;
     padding: 1% 2% 1% 2%;
     color: aqua;
-    text-shadow: 
 }
 
 
