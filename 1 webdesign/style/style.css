@@ -123,10 +123,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   font: normal 120% arial, sans-serif;
 
 } 
-#iframe_align 
-{
- align:center;
-frameborder="0" style="border:0" allowfullscreen;}
 
 .thumb
 {
