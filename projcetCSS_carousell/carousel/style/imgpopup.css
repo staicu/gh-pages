@@ -20,7 +20,7 @@ border-radius: 4px;
 }
 ul.enlarge span{
 position:absolute;
-left: -9999px;
+top: -2000px;
 background-color:#eae9d4;
 padding: 10px;
 font-family: 'Droid Sans', sans-serif;

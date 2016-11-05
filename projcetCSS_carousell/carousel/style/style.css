@@ -1,3 +1,7 @@
+body{
+    background-color: #00f0ff
+}
+
 body > div {
     width: 500px;
     margin: 50px auto;
@@ -7,6 +11,25 @@ body > div {
 ul {
     padding: 0;
     list-style: none;
+}
+
+ul p {
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:2px 2px 5px black;
+	margin:0 0 6px 6px;
+    color:white;}
+
+body h2 {
+    font-family: 'Chewy', cursive;
+	 font-size:60px;
+	 letter-spacing:5px;
+	 word-spacing:10px;
+	 color:navy;
+	 font-weight:bold;
+	 display:block;
+	 text-align:center;
+    margin:20px 0px 20px 0px;
 }
 
 .container {
@@ -62,22 +85,23 @@ ul {
    -webkit-transform: rotateY(180deg) translateZ(540px) scale(.8);
 }
 .carousel li:nth-child(6) ul {
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/6.jpg);
    -webkit-transform: rotateY(225deg) translateZ(540px) scale(.8);
 }
 .carousel li:nth-child(7) ul {
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/7.jpg);
    -webkit-transform: rotateY(270deg) translateZ(540px) scale(.8);
     
 }
 .carousel li:nth-child(8) ul {
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/8.jpg);
    -webkit-transform: rotateY(315deg) translateZ(540px) scale(.8);
 }
 
 label {
+    color: aqua;
     cursor: pointer;
-    background: #eee;
+    background: navy;
     display: inline-block;
     border-radius: 50%;
     width: 30px;
@@ -87,7 +111,7 @@ label {
 }
 
 label:hover {
-    background: #ddd;
+    background: #00f;
 }
 
 input {
@@ -97,7 +121,7 @@ input {
 
 input:checked + label {
     font-weight: bold;
-    background: #ddd;
+    background: #00f;
 }
 
 input[value="2"]:checked ~ .container .carousel {
