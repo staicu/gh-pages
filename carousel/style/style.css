@@ -213,7 +213,7 @@ input[value="8"]:checked ~ .container .carousel li:nth-child(8) img {
     padding: 10px 20px;
     background-repeat: no-repeat;
     border-radius: 30px;
-    box-shadow: 0 0 1px #fff solid;
+    box-shadow: 0 0 1px #fff ;
     margin-bottom: 6px;
     margin-left: 6px;
 }
@@ -398,6 +398,12 @@ input[value="8"]:checked ~ .container .carousel li:nth-child(8) img {
     font-size: 35px;
     color: greenyellow;
 }
+#ans h3 {
+    font-family: 'Chewy', cursive;
+
+    font-size: 35px;
+    color: greenyellow;
+}
 
 #pop1 {
     font-family: 'Chewy', cursive;
@@ -420,5 +426,13 @@ input[value="8"]:checked ~ .container .carousel li:nth-child(8) img {
 
     position: absolute;
     top: -20px;
+    left: -230px
+}
+
+#pop4 {
+    font-family: 'Chewy', cursive;
+
+    position: absolute;
+    top: -40px;
     left: -230px
 }
