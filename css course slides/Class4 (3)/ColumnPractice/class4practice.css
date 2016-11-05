@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background: #DAF4F0;
+	font-family: Verdana, sans-serif;
+	font-size: .9em;
+}
+h1, #column3 {
+	text-align: center;
+}
+p {
+	padding: 10px;
+}
+#container {
+	width: 700px;
+	margin: auto;
+}
+header {
+	background: #00FF00;
+}
+#column1, #column2, #column3 { 
+	float: left;
+	height: 400px;
+}
+#column1, #column3 {
+	width: 20%;
+	background: #aaccaa;
+}
+#column2 {
+	width: 60%;
+	background: #ffff66;
+	font: 1.2em;			/* note that font is not correct */
+}
+#column3 {
+	color: blue;
+}
+

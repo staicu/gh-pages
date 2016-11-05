@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #DAF4F0;
+	font-family: Verdana, sans-serif;
+}
+#top {
+	background: #00FF00;
+}
+#container {
+	padding-left: 200px;
+	padding-right: 220px;  /* padding needs 220px = right column plus center padding (100% width plus 20px padding*/
+}
+#column1, #column2, #column3 {
+	float: left;
+	padding: 0 10px;
+	height: 600px;
+}
+#column1 {
+	width: 180px;
+	background: #aaccaa;
+	margin-left: -200px;
+}
+#column2 {
+	width: 100%;
+	background: #ffff66;
+	font: 20px;
+}
+#column3 {
+	width: 180px;
+	margin-right: -220px;
+	background: #cccc00;
+	text-align: center;
+	color: blue;
+}

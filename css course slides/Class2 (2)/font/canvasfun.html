@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Canvas Fun</title>
+<style type="text/css"> 
+	@font-face {
+		font-family: myfont;
+		src: url(Channel.ttf);
+	}
+	body { 
+        background-color: powderblue; 
+        margin-left: 15%; 
+        margin-right: 15%; 
+        border: 2px dotted gray; 
+        padding: 10px; 
+        font-family: abcmyfont, sans-serif; 
+	}
+	p::before { content: "Site source: ." }
+	p {
+		font-style: normal;
+	} 
+	button {
+		font-family: inherit;
+	} 
+	#p2 {
+		font-style: oblique;
+	}     
+	#p3 {
+		font-style: italic;
+	}     	
+</style>
+</head>
+<body>
+<article>
+<header>
+<h1>Canvas sample</h1>
+<p>HTML Goodies: The sample using Canvas markup element</p>
+<p id="p2">HTML Goodies: The sample using Canvas markup element</p>
+<p id="p3">HTML Goodies: The sample using Canvas markup element</p>
+</header>
+<section>
+<button id="buttonDrawLine" type="button" onclick="buttonDrawLine_click()">Draw Line</button>
+<button id="buttonFillRectangle" type="button" onclick="buttonFillRectangle_click()">Fill Rectangle</button>
+<button id="buttonClearCanvas" type="button" onclick="buttonClear_click()">Clear</button>
+<button id="buttonBusyCanvas" type="button" onclick="buttonBusy_click()">Fun</button>
+<hr />
+<canvas id="mycanvas" width="200" height="300" ><p>The drawing space</p></canvas>
+</section>
+<footer>
+<p>HTML Goodies</p>
+</footer>
+</article>
+<script>
+function buttonDrawLine_click()
+{
+var c=document.getElementById("mycanvas");
+var context=c.getContext("2d");
+context.strokeStyle = "fuchsia";
+context.moveTo(0,0);
+context.lineTo(200,300);
+context.stroke();
+context.moveTo(200,0);
+context.lineTo(0,300);
+context.stroke();
+}
+function buttonFillRectangle_click()
+{
+var c=document.getElementById("mycanvas");
+var context=c.getContext("2d");
+context.fillStyle="#0f0";
+context.fillRect(100,150,150,300);
+}
+function buttonClear_click()
+{
+var c=document.getElementById("mycanvas");
+var context=c.getContext("2d");
+context.fillStyle="#fff";
+context.fillRect(0,0,200,300);
+}
+function buttonBusy_click()
+{
+var c=document.getElementById("mycanvas");
+var context=c.getContext("2d");
+context.strokeStyle = "slateblue";
+for (var i=0; i<10; i++)
+  {
+	context.moveTo(Math.floor(Math.random()*200),Math.floor(Math.random()*300));
+	context.lineTo(Math.floor(Math.random()*200),Math.floor(Math.random()*300));
+	context.stroke();
+  }
+}
+</script>
+</body>
+</html>

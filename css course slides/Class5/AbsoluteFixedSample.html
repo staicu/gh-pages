@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Absolute vs Fixed Positioning</title>
+<style type="text/css">
+aside {
+	top: 80px;
+	width: 250px;
+	border: 2px solid black;
+	background-color: aqua;
+	padding: 10px;
+	}
+.noscroll {
+	position: fixed; 
+	top: 280px;
+	right: 20px;
+	height: 200px;
+	width: 15%;
+	}
+.willscroll {
+	position: absolute;  
+	left: 400px;
+	}
+hr {margin-top: 200px;
+	}
+article {width: 50%;
+	margin: auto;}
+</style>
+</head>
+<body>
+<header>
+<h2>Absolute vs Fixed Positioning</h2>
+<hr />
+</header>
+<article>
+<em>Sample Text is here:</em>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc de hominis summo bono quaeritur; Istam voluptatem perpetuam quis potest praestare sapienti? Duo Reges: constructio interrete. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Nam si quae sunt aliae, falsum est omnis animi voluptates esse e corporis societate. Comprehensum, quod cognitum non habet? Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. </p>
+<p>Neque enim civitas in seditione beata esse potest nec in discordia dominorum domus; Mihi quidem Antiochum, quem audis, satis belle videris attendere. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret? </p>
+<p>Sed fac ista esse non inportuna; At quanta conantur! Mundum hunc omnem oppidum esse nostrum! Incendi igitur eos, qui audiunt, vides. Odium autem et invidiam facile vitabis. Quid, si etiam iucunda memoria est praeteritorum malorum? Sed mehercule pergrata mihi oratio tua. Mihi enim erit isdem istis fortasse iam utendum. Expectoque quid ad id, quod quaerebam, respondeas. Certe nihil nisi quod possit ipsum propter se iure laudari. </p>
+<p>Tum Quintus: Est plane, Piso, ut dicis, inquit. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Animum autem reliquis rebus ita perfecit, ut corpus; Sed quod proximum fuit non vidit. Omnia contraria, quos etiam insanos esse vultis. Nobis aliter videtur, recte secusne, postea; Sed haec quidem liberius ab eo dicuntur et saepius. </p>
+<p>At iam decimum annum in spelunca iacet. Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quamvis enim depravatae non sint, pravae tamen esse possunt. Itaque fecimus. Quod cum accidisset ut alter alterum necopinato videremus, surrexit statim. Itaque hic ipse iam pridem est reiectus; Estne, quaeso, inquam, sitienti in bibendo voluptas? Deinde dolorem quem maximum? </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc de hominis summo bono quaeritur; Istam voluptatem perpetuam quis potest praestare sapienti? Duo Reges: constructio interrete. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Nam si quae sunt aliae, falsum est omnis animi voluptates esse e corporis societate. Comprehensum, quod cognitum non habet? Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. </p>
+<p>Neque enim civitas in seditione beata esse potest nec in discordia dominorum domus; Mihi quidem Antiochum, quem audis, satis belle videris attendere. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret? </p>
+<p>Sed fac ista esse non inportuna; At quanta conantur! Mundum hunc omnem oppidum esse nostrum! Incendi igitur eos, qui audiunt, vides. Odium autem et invidiam facile vitabis. Quid, si etiam iucunda memoria est praeteritorum malorum? Sed mehercule pergrata mihi oratio tua. Mihi enim erit isdem istis fortasse iam utendum. Expectoque quid ad id, quod quaerebam, respondeas. Certe nihil nisi quod possit ipsum propter se iure laudari. </p>
+<p>Tum Quintus: Est plane, Piso, ut dicis, inquit. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Animum autem reliquis rebus ita perfecit, ut corpus; Sed quod proximum fuit non vidit. Omnia contraria, quos etiam insanos esse vultis. Nobis aliter videtur, recte secusne, postea; Sed haec quidem liberius ab eo dicuntur et saepius. </p>
+<p>At iam decimum annum in spelunca iacet. Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quamvis enim depravatae non sint, pravae tamen esse possunt. Itaque fecimus. Quod cum accidisset ut alter alterum necopinato videremus, surrexit statim. Itaque hic ipse iam pridem est reiectus; Estne, quaeso, inquam, sitienti in bibendo voluptas? Deinde dolorem quem maximum? </p>
+</article>
+<section>
+<aside class="noscroll">
+<em>Fixed positioning:</em>
+This will not scroll and is out of flow. 
+This aside has been set to 20px from the browser's right,
+and 280px from the browser window's top.
+</aside>
+</section>
+<section>
+<aside class="willscroll">
+<em>Absolute positioning:</em>
+This will scroll, but is out of page flow.
+This aside has been set to 400px from the page's left,
+and 80px from the page's top. 
+</aside>
+</section>
+</body>
+</html>
