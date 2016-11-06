@@ -181,6 +181,7 @@ header {
 }
 
 footer {
+    color: orange;
     text-align: center;
     padding-bottom: 50px
 }

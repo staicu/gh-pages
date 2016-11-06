@@ -10,7 +10,9 @@ p::first-letter{
 }
 
 body{
-
+    position: relative;
+    width: 1000px;
+    padding: 00px;
     margin:auto;
     width: 60%;
     height: 900px;
@@ -91,8 +93,21 @@ p:last-child>a{
 p:last-child>a:hover{
     background-color: #F00F0F;
 }
+
+/*Positioning the elements in the page*/
+
+#main{
+    
+    position: absolute;
+    width: 800px;
+    height: 900px
+}
+
 #content{
-    float:inherit;
+    float:right;
+    position: absolute;
+    left:400px;
+    width:300px;
     padding:20px;
     
 }
