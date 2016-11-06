@@ -39,7 +39,7 @@ body {
     font-size: 24px;
     font-weight: normal;
     color: black;
-    text-align:center;
+    text-align: center;
 }
 
 #carousel div:nth-child(1) {
@@ -61,22 +61,26 @@ body {
 #carousel div:nth-child(5) {
     background: hsla(288, 75%, 50%, 0.9);
 }
-    
+
 #carousel div:nth-child(1) {
     transform: rotateY(0deg) translateZ( 288px);
-    }
+}
+
 #carousel div:nth-child(2) {
     transform: rotateY(72deg) translateZ( 288px);
-    }
+}
+
 #carousel div:nth-child(3) {
     transform: rotateY(144deg) translateZ( 288px);
-    }
+}
+
 #carousel div:nth-child(4) {
     transform: rotateY(216deg) translateZ( 288px);
-    }
+}
+
 #carousel div:nth-child(5) {
     transform: rotateY(288deg) translateZ( 288px);
-    }
+}
 
 #options {
     position: relative;
