@@ -201,60 +201,9 @@ input[value="8"]:checked ~ .container .carousel li:nth-child(8) img {
 /* buttons */
 
 .button {
-    font: 30px Calibri, Arial, sans-serif;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
-    text-decoration: none;
-    white-space: nowrap;
-    display: inline-block;
-    vertical-align: baseline;
-    position: relative;
-    cursor: pointer;
-    padding: 10px 20px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    box-shadow: 0 0 1px #fff;
+  
     margin-bottom: 6px;
     margin-left: 6px;
-}
-
-.button:active {
-    bottom: -2px;
-}
-
-.blue.button {
-    color: #0f4b6d;
-    background-color: #48b5f2;
-}
-
-.blue.button:hover {
-    background-color: #63c7fe;
-}
-
-.green.button {
-    color: #345903;
-    background-color: #79be1e;
-}
-
-.green.button:hover {
-    background-color: #89d228;
-}
-
-.orange.button {
-    color: #693e0a;
-    background-color: #e38d27;
-}
-
-.orange.button:hover {
-    background-color: #ec9732;
-}
-
-.gray.button {
-    color: #525252;
-    background-color: #a9adb1;
-}
-
-.gray.button:hover {
-    background-color: #b6bbc0;
 }
 
 
