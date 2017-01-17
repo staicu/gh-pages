@@ -41,8 +41,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="#">Nos services </a></li>
-                    <li role="presentation"><a href=" temoignages.html"><strong>Témoignages</strong></a></li>
+                    <li role="presentation"><a href="index.html">Nos services </a></li>
+                    <li role="presentation"><a href=" temoignages.html"> Temoignages </a></li>
                     <li role="presentation"><a href="contact.html">Contact </a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Liens<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -57,43 +57,42 @@
     </nav>
     <div></div>
     <div></div>
-    <div class="carousel slide" data-ride="carousel" id="carousel-1">
-        <div class="carousel-inner" role="listbox">
-            <div class="item active"><img class="img-rounded" src="assets/img/IMG_1287.jpg" alt="Slide Image" width="500">
-                <div class="carousel-caption">
-                    <h3 style="font-size:xx-large;">Clinique Dentaire</h3>
-                    <p style="font-size:xx-large;">(514)695-1261 </p>
-                </div>
-            </div>
-            <div class="item"><img src="assets/img/IMG_1314.jpg" alt="Slide Image" width="500" height="500">
-                <div class="carousel-caption">
-                    <h3 style="font-size:xx-large;">Clinique Dentaire </h3>
-                    <p style="font-size:xx-large;">(514) 695-1261</p>
-                </div>
-            </div>
-            <div class="item"><img src="assets/img/IMG_1289.jpg" alt="Slide Image" width="500">
-                <div class="carousel-caption">
-                    <h3 style="font-size:xx-large;">Clinique Dentaire</h3>
-                    <p style="font-size:xx-large;">(514)695-1261 </p>
-                </div>
-            </div>
-        </div>
-        <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a>
-            <a class="right carousel-control" href="#carousel-1" role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a>
-        </div>
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-1" data-slide-to="1"></li>
-            <li data-target="#carousel-1" data-slide-to="2"></li>
-        </ol>
-    </div>
     <div class="progress">
         <div class="progress-bar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
     </div>
-    <blockquote>
-        <p>Dans la vie, il faut avoir un bon dentiste car, ou bien l'on est un raté et l'on doit sourire à ceux dont on sollicite l'aide, ou bien l'on a réussi et il convient de se montrer encore plus aimable pour se faire pardonner de n'avoir pas échoué..</p>
-        <footer>Philippe Bouvard </footer>
-    </blockquote>
+    <div class="container" id="info-container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-info">Contact Us</h2></div>
+            <div class="col-md-6 col-sm-6 col-xs-12" id="contact-box">
+                <p id="contact-text" style="font-size:x-large;">Clinique Dentaire Dr Mirela Culuri </p>
+                <div class="info-box"><i class="glyphicon glyphicon-map-marker my-info-icons"></i><span class="text-uppercase text-info"> </span><span style="font-size:x-large;"> 6600 Autoroute Transcanadienne, Pointe-Claire, QC H9R 4S2 </span></div>
+                <div class="info-box"><i class="glyphicon glyphicon-envelope my-info-icons"></i><span class="text-uppercase text-info">Email: </span><span>mirelaculuri@bellnet.ca </span></div>
+                <div class="info-box"><i class="glyphicon glyphicon-phone-alt my-info-icons"></i><span class="text-uppercase text-info">Phone: </span><span>(514)695-1261 </span></div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 site-form">
+                <form id="my-form">
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only" for="firstname">First Name</label>
+                        <input class="form-control" type="text" name="firstname" placeholder="First Name" autofocus="" id="firstname"><i class="form-control-feedback fa fa-user" aria-hidden="true"></i></div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only" for="lastname">Last Name</label>
+                        <input class="form-control" type="text" name="lastname" placeholder="Last Name" id="lastname"><i class="form-control-feedback fa fa-user" aria-hidden="true"></i></div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only" for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" name="phonenumber" required="" placeholder="Phone" id="phonenumber"><i class="form-control-feedback fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only" for="email">Email Address</label>
+                        <input class="form-control" type="text" name="email" required="" placeholder="Email" id="email"><i class="form-control-feedback fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only" for="messages">Last Name</label>
+                        <textarea class="form-control" rows="8" name="messages" required="" placeholder="Message"></textarea><i class="form-control-feedback fa fa-pencil" aria-hidden="true"></i></div>
+                    <button class="btn btn-default btn-lg" type="submit" id="form-btn">SEND </button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
     <div id="team">
         <div class="container">
             <div class="row">
@@ -158,41 +157,14 @@
             </div>
         </div>
     </div>
-    <div class="photo-gallery">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Notre Clinique Dentaire</h2>
-                <p class="text-center">La satisfaction de la clientèle est primordiale. C'est pourquoi l'accueil chaleureux et le service personnalisé à chaque patient, le tout effectué dans les règles de l'art, sont importants aux yeux de tous les membres de l'équipe. </p>
-            </div>
-            <div class="row photos">
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1313.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1313.jpg"></a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1307.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1307.jpg"></a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1295.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1295.jpg"></a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1297.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1297.jpg"></a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1303.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1303.jpg"></a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 item">
-                    <a href="assets/img/IMG_1311.jpg" data-lightbox="photos"><img class="img-responsive" src="assets/img/IMG_1311.jpg"></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="photo-gallery"></div>
     <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-push-6 item text">
                         <h3 style="font-size:x-large;">Clinique Dentaire Dr Mirela Culuri</h3>
-                        <p style="font-size:x-large;"> 6600 Autoroute Transcanadienne, Pointe-Claire, QC H9R 4S2.</p>
+                        <p style="font-size:x-large;"> 6600 Autoroute Transcanadienne, Pointe-Claire, QC H9R 4S2</p>
                     </div>
                     <div class="col-md-3 col-md-pull-6 col-sm-4 item">
                         <h3>Services</h3>
