@@ -1,0 +1,19 @@
+﻿
+.nav, .navbar-nav {
+   font-size:15px;
+   font-type:bold;
+}
+header.carousel {
+ height: 80%;
+}
+footer{
+	font-size:1.2em;
+}
+
+footer p {
+	float:left;
+}
+
+footer ul {
+	float: right;
+}

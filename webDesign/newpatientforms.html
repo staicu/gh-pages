@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clinic ABC - New Patient Forms</title>
+    <title> New Patient Forms | Clinique Dentaire</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+    <link href="css/index.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -90,7 +90,7 @@
                                 <a href="newpatientforms.html"> New Patient Forms</a>
                             </li>
                             <li>
-                                <a href="patientlogin.html"> Patient Login</a>
+                                <a href="https://www.smiledash.com/"> Patient Login</a>
                             </li>
                             <li>
                                 <a href="commonproblems.html"> Common Problems</a>
@@ -106,19 +106,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html"> Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html"> Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html"> Blog Post</a>
-                            </li>
-                        </ul>
+                    <li>
+						<a href="blog.html"> Blog </a>
                     </li>
 			
 					<li>
@@ -126,7 +115,7 @@
                     </li>
 					
 					<li>
-                        <a href="appointment.html"> Appointment</a>
+                        <a href="https://www.smoothbook.co/ap/index.php/smart/home/22380"> Appointment</a>
                     </li>
                 </ul>
             </div>
@@ -134,31 +123,59 @@
         </div>
         <!-- /.container -->
     </nav>
-    <!-- Page Content -->
-    <div class="container">
+     <div class="container">
+            <h1>New Patient Form</h1>
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Full Width Page
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Full Width Page</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
+        <form name="contactform" method="post" action="send_form_email.php">
 
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Most of Start Bootstrap's unstyled templates can be directly integrated into the Modern Business template. You can view all of our unstyled templates on our website at <a href="http://startbootstrap.com/template-categories/unstyled">http://startbootstrap.com/template-categories/unstyled</a>.</p>
-            </div>
-        </div>
-        <!-- /.row -->
+            <table width="450 px">
+                <tr>
+                    <td valign="top">
+                        <label for="first_name">First Name *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="first_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+    <label for=" last_name">Last Name *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="last_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="email">Email Address *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="email" maxlength="80" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="telephone">Telephone Number</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="telephone" maxlength="30" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="comments">Comments *</label>
+                    </td>
+                    <td valign="top">
+                        <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <input type="submit" value="Submit"> <a href="send_email_form.php">Email Form</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
 
         <hr>
 
@@ -166,8 +183,23 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
+                    <p>Copyright &copy; Clinique Dentaire 2017</p>
+
+				<ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+				</div>
             </div>
         </footer>
 
