@@ -32,7 +32,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
 			
@@ -256,7 +256,7 @@
 			
 			<div class="col-md-8">
                  <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44772.277902207235!2d-73.62198217619628!3d45.464417703928156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1484528489569"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5760.802101785919!2d-73.82921926879759!3d45.46171135531747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93c6e91fcfb8d%3A0x7f07542908281ded!2s6600+Route+Transcanadienne%2C+Pointe-Claire%2C+QC+H9R+4S2!5e0!3m2!1sen!2sca!4v1484757770138"></iframe>
             </div>
            <!-- Contact Details Column -->
             <div class="col-md-4">
@@ -311,12 +311,26 @@
         <hr>
 
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Clinique Dentaire 2017</p>
-
-				<ul class="list-unstyled list-inline list-social-icons">
+         <footer>
+            <div class="container">
+                <div class="row">
+                    
+                    <div id="footer_left">
+                        <p>Contactez Nous:</p>
+						<p>
+                        <a href="mailto:mirelaculuri@bellnet.ca">mirelaculuri@bellnet.ca</a>
+						</p>
+                        <p>(514) 695-1261 </p>
+                    </div>
+					
+					<div id="footer_right">
+                        <p>Clinique Dentaire Dr Mirela Culuri</p>
+                        <p> 6600 Autoroute Transcanadienne</p>
+						<p> Pointe-Claire, QC H9R 4S2.</p>
+                    </div>
+				</div>	
+				<div>
+                    <ul id="icons" class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
@@ -329,11 +343,13 @@
                     <li>
                         <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
-                </ul>
+					</ul>
 				</div>
+                
+                <p class="copyright">Company Clinique Dentaire Mirela Culuri © 2017</p>
             </div>
         </footer>
-
+		
     </div>
     <!-- /.container -->
 

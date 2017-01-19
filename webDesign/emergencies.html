@@ -32,7 +32,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
 			
@@ -145,14 +145,14 @@
 		<h1 class="entry-title">Emergency Information</h1>
             <p>Most orthodontic emergencies can be remedied at home until an appointment can be obtained. Rarely a true emergency, the discomfort from a problem with the braces can be upsetting. The staff is always on call for your concerns and emergencies, but to assist in some common problems, we have listed below some possible solutions to deal with on a temporary basis until seen by Dr. Bright. The videos below the bulleted list provide additional information.</p>
 		<h2>How to Deal with Emergencies with Braces</h2>
-		<p><span class="alignright"><section id="huge_it_videogallery_content_1" class="gallery-video-content" data-gallery-video-id="1"data-gallery-video-perpage="5">
+		
 		<div id="huge_it_videogallery_container_1" class="huge_it_videogallery_container super-list variable-sizes clearfix view-lightbox-gallery" data-show-center="off">
 			<div id="huge_it_videogallery_container_moving_1" class="super-list variable-sizes clearfix">
 				<input type="hidden" class="pagenum" value="1"/>
 				<input type="hidden" id="total" value="1"/>
-                    <div data-id="13" class="video-element_1 video-element" tabindex="0" data-symbol="Arch Expansion " data-category="alkaline-earth">
+                    <div id="video_1" data-id="13" class="video-element_1 video-element" tabindex="0" data-symbol="Arch Expansion " data-category="alkaline-earth">
 						<div class="image-block_1">
-                            <a class="vyoutube huge_it_videogallery_item group1" href="https://www.youtube.com/embed/J2HBOYKQ5D4" title="Arch Expansion " data-id="13">
+                            <a class="vyoutube huge_it_videogallery_item group1"  href="https://www.youtube.com/embed/J2HBOYKQ5D4" title="Arch Expansion " data-id="13">
                                 <img src="http://img.youtube.com/vi/J2HBOYKQ5D4/mqdefault.jpg" alt="Arch Expansion "/>
                                 <div class="play-icon youtube-icon">
 								</div>
@@ -162,7 +162,7 @@
 						    Arch Expansion                                                 
 						</div>
                     </div>
-                    <div data-id="11" class="video-element_1 video-element" tabindex="0" data-symbol="Broken Or Loose Brackets " data-category="alkaline-earth">
+                    <div  id="video_2" data-id="11" class="video-element_1 video-element" tabindex="0" data-symbol="Broken Or Loose Brackets " data-category="alkaline-earth">
 						<div class="image-block_1">
                             <a class="vyoutube huge_it_videogallery_item group1" href="https://www.youtube.com/embed/112AsCMyj_Q" title="Broken Or Loose Brackets " data-id="11">
                                 <img src="http://img.youtube.com/vi/112AsCMyj_Q/mqdefault.jpg" alt="Broken Or Loose Brackets "/>
@@ -173,10 +173,11 @@
                         <div class="title-block_1">
 							Broken Or Loose Brackets                                                 
 						</div>
+						
                     </div>
-                    <div data-id="10" class="video-element_1 video-element" tabindex="0" data-symbol="Poking Wires " data-category="alkaline-earth">
+                    <div id="video_3" data-id="10" class="video-element_1 video-element" tabindex="0" data-symbol="Poking Wires " data-category="alkaline-earth">
 						<div class="image-block_1">
-                            <a class="vyoutube huge_it_videogallery_item group1" href="https://www.youtube.com/embed/yzy2tbX_7E8" title="Poking Wires "
+                            <a class="vyoutube huge_it_videogallery_item group1"  href="https://www.youtube.com/embed/yzy2tbX_7E8" title="Poking Wires "
                                data-id="10">
                                 <img src="http://img.youtube.com/vi/yzy2tbX_7E8/mqdefault.jpg" alt="Poking Wires "/>
                                 <div class="play-icon youtube-icon">
@@ -187,8 +188,10 @@
                             Poking Wires                                                 
 						</div>
                     </div>
-                </div>
             </div>
+        </div>
+			
+		<br>
             <ol>
 				<li><strong>Broken or loose braces</strong> &#8211; If the bracket comes off of the tooth, it is normally still attached to the wire with an elastic tie, preventing swallowing. If it is necessary to cut the wire, use clippers that have been sterilized in alcohol and schedule an appointment for the next day.</li>
 				<li><strong>Loose bracket</strong> &#8211; Call our office to see if the bracket or main wire needs to be refitted. If necessary, you may cut the wire with fingernail clippers that have been washed and sterilized in alcohol. Schedule an appointment for the next day.</li>
@@ -200,12 +203,27 @@
         <hr>
 
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Clinique Dentaire 2017</p>
-
-				<ul class="list-unstyled list-inline list-social-icons">
+        <!-- Footer -->
+         <footer>
+            <div class="container">
+                <div class="row">
+                    
+                    <div id="footer_left">
+                        <p>Contactez Nous:</p>
+						<p>
+                        <a href="mailto:mirelaculuri@bellnet.ca">mirelaculuri@bellnet.ca</a>
+						</p>
+                        <p>(514) 695-1261 </p>
+                    </div>
+					
+					<div id="footer_right">
+                        <p>Clinique Dentaire Dr Mirela Culuri</p>
+                        <p> 6600 Autoroute Transcanadienne</p>
+						<p> Pointe-Claire, QC H9R 4S2.</p>
+                    </div>
+				</div>	
+				<div>
+                    <ul id="icons" class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
@@ -218,8 +236,10 @@
                     <li>
                         <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
-                </ul>
+					</ul>
 				</div>
+                
+                <p class="copyright">Company Clinique Dentaire Mirela Culuri © 2017</p>
             </div>
         </footer>
 
