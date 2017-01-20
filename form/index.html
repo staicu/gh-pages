@@ -1,21 +1,633 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en-US"><![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
 
 <head>
-    <title></title>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <!-- Pingback URL -->
+   
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/"
+            , "ext": ".png"
+            , "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/"
+            , "svgExt": ".svg"
+            , "source": {
+                "concatemoji": "http:\/\/www.spadentaireperrot.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.1"
+            }
+        };
+        ! function (a, b, c) {
+            function d(a) {
+                var b, c, d, e, f = String.fromCharCode;
+                if (!k || !k.fillText) return !1;
+                switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) {
+                case "flag":
+                    return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), !(j.toDataURL().length < 3e3) && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57331, 65039, 8205, 55356, 57096), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57331, 55356, 57096), 0, 0), c = j.toDataURL(), b !== c);
+                case "emoji4":
+                    return k.fillText(f(55357, 56425, 55356, 57341, 8205, 55357, 56507), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55357, 56425, 55356, 57341, 55357, 56507), 0, 0), e = j.toDataURL(), d !== e
+                }
+                return !1
+            }
+
+            function e(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var f, g, h, i, j = b.createElement("canvas")
+                , k = j.getContext && j.getContext("2d");
+            for (i = Array("flag", "emoji4"), c.supports = {
+                    everything: !0
+                    , everythingExceptFlag: !0
+                }, h = 0; h < i.length; h++) c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () {
+                c.DOMReady = !0
+            }, c.supports.everything || (g = function () {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () {
+                "complete" === b.readyState && c.readyCallback()
+            })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='google-raleway-css' href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C100%2C200%2C300%2C500%2C600%2C700%2C800%2C900&#038;ver=4.7.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-droid-serif-css' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=4.7.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/bootstrap.css?ver=3.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/flexslider/flexslider.css?ver=2.3.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='animations-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/animations.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/font-awesome.css?ver=4.0.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='datepicker-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/datepicker.css?ver=1.10.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='swipebox-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/swipebox.css?ver=1.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='meanmenu-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/meanmenu.css?ver=2.0.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='select2-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/select2.min.css?ver=4.0.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/main.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-responsive-css-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/custom-responsive.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='parent-default-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/style.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='parent-custom-css' href='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/css/custom.css?ver=1.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='redux-google-fonts-redux_demo-css' href='http://fonts.googleapis.com/css?family=Raleway%7CDroid+Serif%3A400italic&#038;subset=latin&#038;ver=1484198572' type='text/css' media='all' />
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='http://www.spadentaireperrot.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.spadentaireperrot.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.spadentaireperrot.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.7.1" />
+    <link rel="canonical" href="http://www.spadentaireperrot.com/contactez-nous/" />
+    <link rel='shortlink' href='http://www.spadentaireperrot.com/?p=10' />
+    <link rel="alternate" type="application/json+oembed" href="http://www.spadentaireperrot.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.spadentaireperrot.com%2Fcontactez-nous%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="http://www.spadentaireperrot.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.spadentaireperrot.com%2Fcontactez-nous%2F&#038;format=xml" />
+    <style type='text/css' id='inspiry-dynamic-css'>
+        nav.main-menu ul > li ul li {
+            border-color: #73d1e7;
+        }
+        
+        a {
+            color: #3a3c41;
+        }
+        
+        a:hover,
+        a:focus {
+            color: #ff5a00;
+        }
+        
+        form input[type="submit"],
+        .woocommerce a.added_to_cart,
+        .woocommerce a.button,
+        .woocommerce button.button,
+        .woocommerce input.button,
+        .woocommerce #respond input#submit,
+        .woocommerce #respond input[type="submit"] {
+            background-color: #3a3c41;
+        }
+        
+        form input[type="submit"]:hover,
+        form input[type="submit"]:focus,
+        .woocommerce a.added_to_cart:hover,
+        .woocommerce a.button:hover,
+        .woocommerce button.button:hover,
+        .woocommerce input.button:hover,
+        .woocommerce #respond input#submit:hover,
+        .woocommerce #respond input[type="submit"]:hover {
+            background-color: #ff5a00;
+        }
+        
+        form input[type="submit"],
+        .woocommerce a.added_to_cart,
+        .woocommerce a.button,
+        .woocommerce button.button,
+        .woocommerce input.button,
+        .woocommerce #respond input#submit,
+        .woocommerce #respond input[type="submit"] {
+            color: #ffffff;
+        }
+        
+        form input[type="submit"]:hover,
+        form input[type="submit"]:focus,
+        .woocommerce a.added_to_cart:hover,
+        .woocommerce a.button:hover,
+        .woocommerce button.button:hover,
+        .woocommerce input.button:hover,
+        .woocommerce #respond input#submit:hover,
+        .woocommerce #respond input[type="submit"]:hover {
+            color: #ffffff;
+        }
+        
+        .read-more,
+        .woocommerce ul.products li.product .button,
+        .woocommerce #respond input#submit.alt,
+        .woocommerce a.button.alt,
+        .woocommerce button.button.alt,
+        .woocommerce input.button.alt {
+            background-color: #ff5a00;
+        }
+        
+        .read-more:hover,
+        .read-more:focus,
+        .woocommerce ul.products li.product .button:hover,
+        .woocommerce #respond input#submit.alt:hover,
+        .woocommerce a.button.alt:hover,
+        .woocommerce button.button.alt:hover,
+        .woocommerce input.button.alt:hover {
+            background-color: #00d8d5;
+        }
+        
+        .read-more,
+        .woocommerce ul.products li.product .button,
+        .woocommerce #respond input#submit.alt,
+        .woocommerce a.button.alt,
+        .woocommerce button.button.alt,
+        .woocommerce input.button.alt {
+            color: #ffffff;
+        }
+        
+        .read-more:hover,
+        .read-more:focus,
+        .woocommerce ul.products li.product .button:hover,
+        .woocommerce #respond input#submit.alt:hover,
+        .woocommerce a.button.alt:hover,
+        .woocommerce button.button.alt:hover,
+        .woocommerce input.button.alt:hover {
+            color: #ffffff;
+        }
+        
+        .home-slider .make-appoint {
+            background-color: #3a3c41;
+        }
+        
+        .home-slider .make-appoint:hover {
+            background-color: #000;
+        }
+        
+        .home-slider .appointment,
+        .home-slider .appointment-form,
+        .ui-datepicker-header {
+            background-color: #67c9e0;
+        }
+        
+        td .ui-state-active,
+        td .ui-state-hover,
+        td .ui-state-highlight,
+        .ui-datepicker-header .ui-state-hover {
+            background-color: #3fa6be;
+        }
+        
+        #main-footer,
+        .footer-bottom,
+        #main-footer .widget ul,
+        #main-footer .widget ul li {
+            border-color: #4a4c52;
+        }
+        
+        #main-footer .widget a {
+            color: #b5bac6;
+        }
+        
+        #main-footer .widget a:hover {
+            color: #cbd1de;
+        }
+        
+        #main-footer .widget a:active {
+            color: #cbd1de;
+        }
+        
+        .footer-bottom .footer-social-nav li .fa {
+            color: #53565c;
+        }
+        
+        .footer-bottom .footer-social-nav li .fa:hover {
+            color: #ffffff;
+        }
+        
+        .footer-bottom .footer-social-nav li .fa:active {
+            color: #ffffff;
+        }
+        
+        @media only screen and (max-width: 530px) {
+            .mean-container .mean-bar {
+                background-color: #53c3dd;
+            }
+        }
+    </style>
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><script src="http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/respond.min.js"></script><![endif]-->
+    <style type='text/css' id='quick-css'>
+        .home-features .features-intro .read-more {
+            background-color: #ff5a00;
+        }
+        
+        .flex-direction-nav .flex-next {
+            right: -50px;
+            text-align: right;
+            background: url("http://www.spadentaireperrot.com/wp-content/themes/medical-theme/images/slider-right-arrow.png") center no-repeat #ff5a00;
+        }
+        
+        .flex-direction-nav .flex-prev {
+            left: -50px;
+            background: url("http://www.spadentaireperrot.com/wp-content/themes/medical-theme/images/slider-left-arrow.png") center no-repeat #ff5a00;
+        }
+        
+        .home-slider .make-appoint {
+            font-size: 15px;
+            background-color: #ff5a00;
+            display: block;
+            text-align: left;
+            position: relative;
+            z-index: 99;
+            padding: 7px 15px;
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <style type="text/css" title="dynamic-css" class="options-output">
+        nav.main-menu {
+            margin-top: 30px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Raleway;
+        }
+        
+        body {
+            font-family: Raleway;
+        }
+        
+        .entry-content blockquote p,
+        .entry-content blockquote,
+        .home-testimonial blockquote p {
+            font-family: "Droid Serif";
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        h1 a,
+        h2 a,
+        h3 a,
+        h4 a,
+        h5 a,
+        h6 a,
+        h1 span,
+        h2 span,
+        h3 span,
+        h4 span,
+        h5 span,
+        h6 span {
+            color: #3a3c41;
+        }
+        
+        body {
+            color: #7b7d85;
+        }
+        
+        .header-top {
+            background-color: #53c3dd;
+        }
+        
+        .header-top p {
+            color: #ffeded;
+        }
+        
+        .header-top p span {
+            color: #fefefe;
+        }
+        
+        #header {
+            background-color: #ffffff;
+        }
+        
+        nav.main-menu ul > li > a {
+            color: #60646d;
+        }
+        
+        nav.main-menu ul > li:hover > a,
+        nav.main-menu ul > .current-menu-item > a,
+        nav.main-menu ul > li ul {
+            background-color: #ff5a00;
+        }
+        
+        nav.main-menu ul > li:hover > a,
+        nav.main-menu ul > .current-menu-item > a,
+        nav.main-menu ul > li ul li a {
+            color: #ffffff;
+        }
+        
+        nav.main-menu ul > li ul li:hover a {
+            background-color: #53c3dd;
+        }
+        
+        .mean-container .mean-nav ul li a,
+        .mean-container a.meanmenu-reveal {
+            color: #ffffff;
+        }
+        
+        .mean-container a.meanmenu-reveal span {
+            background-color: #ffffff;
+        }
+        
+        .mean-container .mean-bar a.meanmenu-reveal,
+        .mean-container .mean-bar .mean-nav {
+            background-color: #67c9e0;
+        }
+        
+        .mean-container .mean-bar .mean-nav ul li a {
+            border-color: #73d1e7;
+        }
+        
+        .page-top {
+            background-color: #ffffff;
+        }
+        
+        #main-footer {
+            background-color: #3a3c41;
+        }
+        
+        #main-footer .widget h3.title {
+            color: #f0f5f7;
+        }
+        
+        #main-footer {
+            color: #9ba0aa;
+        }
+        
+        .footer-bottom p {
+            color: #7a7d86;
+        }
+    </style>
 </head>
 
-<body>
-    <div>
-        <br />
-        <h6>
-            Contact Form:</h6>
-        <form method="POST" action="http://formspree.io/staicu4@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-</form>
+<body class="page-template page-template-make-appointment-template page-template-make-appointment-template-php page page-id-10 inspiry-themes inspiry-medicalpress-theme">
+    <!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="<php echo 'http://www.google.com/chromeframe/?redirect=true'; ?>">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+    <div class="header-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 ">
+                    <p>Notre adresse: 70 Boulevard Perrot, Île-Perrot, QC J7V 3E8</p>
+                </div>
+                <div class="col-lg-7 col-md-7  text-right">
+                    <p>
+                        <br class="visible-xs" />&nbsp;&nbsp;Contact : <span>(514) 425-3333</span> </p>
+                </div>
+            </div>
+        </div>
     </div>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <!-- Website Logo -->
+                    <div class="logo clearfix">
+                        <a href="http://www.spadentaireperrot.com/"> <img src="http://www.spadentaireperrot.com/wp-content/uploads/2015/04/logo10.jpg" alt="Spa Dentaire Ile Perrot" /> </a>
+                    </div>
+                    <!-- Main Navigation -->
+                    <nav class="main-menu">
+                        <ul id="menu-main-menu" class="header-nav clearfix">
+                            <li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-259"><a href="http://www.spadentaireperrot.com/">ACCUEIL</a></li>
+                            <li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257"><a>À PROPOS</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-258"><a href="http://www.spadentaireperrot.com/doctor/notre-equipe/">NOTRE ÉQUIPE</a></li>
+                                    <li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="http://www.spadentaireperrot.com/notre-vision/">NOTRE VISION</a></li>
+                                    <li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://www.spadentaireperrot.com/paiements/">PAIEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a>SERVICES</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-255"><a>Dentisterie esthétique</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="http://www.spadentaireperrot.com/facettes/">FACETTES</a></li>
+                                            <li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="http://www.spadentaireperrot.com/couronnes/">COURONNES</a></li>
+                                            <li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="http://www.spadentaireperrot.com/implantologie/">IMPLANTOLOGIE</a></li>
+                                            <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="http://www.spadentaireperrot.com/reabilitation-complete/">REABILITATION COMPLÈTE</a></li>
+                                            <li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="http://www.spadentaireperrot.com/blanchiment-des-dents/">BLANCHIMENT DES DENTS</a></li>
+                                            <li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="http://www.spadentaireperrot.com/cerec/">CEREC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-254"><a>Dentisterie générale</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://www.spadentaireperrot.com/hygiene-dentaire/">HYGIÈNE DENTAIRE</a></li>
+                                            <li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="http://www.spadentaireperrot.com/chirurgie/">CHIRURGIE</a></li>
+                                            <li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-266"><a href="http://www.spadentaireperrot.com/parodontie/">PARODONTIE</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="http://www.spadentaireperrot.com/diode-laser/">DIODE LASER</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="http://www.spadentaireperrot.com/prostodontie/">PROSTODONTIE</a></li>
+                                            <li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="http://www.spadentaireperrot.com/restauration/">RESTAURATION</a></li>
+                                            <li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="http://www.spadentaireperrot.com/endodontie/">ENDODONTIE</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="http://www.spadentaireperrot.com/temoignages/">TÉMOIGNAGES</a></li>
+                            <li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-263"><a href="http://www.spadentaireperrot.com/contactez-nous/">CONTACTEZ-NOUS</a></li>
+                        </ul>
+                    </nav>
+                    <div id="responsive-menu-container"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner clearfix" style="background-repeat: no-repeat; background-position: center top; background-image: url('http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/images/banner.jpg'); background-size: cover;"></div>
+    <div class="page-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="entry-title">CONTACTEZ-NOUS</h1>
+                    <nav class="bread-crumb">
+                        <ul class="breadcrumb clearfix">
+                            <li><a href="http://www.spadentaireperrot.com">Spa Dentaire Ile Perrot</a><span class="divider"></span></li>
+                            <li class="active">CONTACTEZ-NOUS</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="appoint-page clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                    <article id="post-10" class=" clearfix post-10 page type-page status-publish hentry">
+                        <div class="entry-content"> </div>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                    <div class="appoint-section clearfix">
+                        <div class="top-icon"><img src="http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/images/appoint-form-top.png" alt="" /></div>
+                        <form id="appointment_form_main" action="http://www.spadentaireperrot.com/wp-admin/admin-ajax.php" method="post">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <input type="text" name="name" id="app-name" class="required" placeholder="Name" title="* Please provide your name" /> </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <input type="text" name="number" id="app-number" placeholder="Phone Number" title="* Please provide your phone number." /> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address" title="* Please provide a valid email address" /> </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <input type="text" name="date" id="datepicker" placeholder="Appointment Date" / title="* Please provide appointment date"> </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-12 col-md-12 col-sm-12">
+                                    <textarea name="message" id="app-message" class="required" cols="50" rows="1" placeholder="Message" title="* Please provide your message"></textarea>
+                                    <input type="hidden" name="action" value="make_appointment">
+                                    <input type="hidden" name="nonce" value="59b18fb689" /> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <input type="hidden" name="recaptcha" value="true" /> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="submit" name="Submit" class="btn" value="Submit Request" /> <img src="http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/images/loader.gif" id="appointment-loader" alt="Loading..."> </div>
+                                <div class="col-sm-12">
+                                    <div id="message-sent"></div>
+                                    <div id="error-container"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="main-footer" class="site-footer clearfix">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-3 col-md-3 col-sm-6  ">
+                    <section id="text-1" class="widget animated fadeInLeft widget_text">
+                        <h3 class="title">Nos heures d&#8217;ouverture</h3>
+                        <div class="textwidget">Lundi ......................................... 12:00 - 19:00</br> Mardi ........................................... 8:30 - 19:00</br> Mercredi ...................................12:00 - 20:00</br> Jeudi ............................................ 8:00 - 19:00</br> Vendredi ............................................... Fermé</br> Samedi ........................................9:30 - 13:00</br> Dimanche ............................................. Fermé</br>
+                            </br> Bienvenue aux nouveaux patients!</br>
+                            </br> <b>Pour nous joindre : (514) 425-3333</b> </div>
+                    </section>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6  ">
+                    <section id="text-2" class="widget animated fadeInLeft widget_text">
+                        <h3 class="title">Notre adresse</h3>
+                        <div class="textwidget">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2801.749760131248!2d-73.9570363!3d45.3942185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9386becc591a3%3A0x22a1352831242450!2s70+Boulevard+Perrot%2C+L&#39;%C3%8Ele-Perrot%2C+QC+J7V+3E8!5e0!3m2!1sen!2sca!4v1415426103332" width="520" height="260" frameborder="0" style="border:0"></iframe>
+                        </div>
+                    </section>
+                </div>
+                <div class="clearfix visible-sm"></div>
+                <div class=" col-lg-3 col-md-3 col-sm-6  "> </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6  ">
+                    <section id="text-3" class="widget animated fadeInLeft widget_text">
+                        <h3 class="title">Suivez-nous sur Facebook</h3>
+                        <div class="textwidget">
+                            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fspadentaireperrot&amp;width=270&amp;height=410&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true&amp;appId=174239939254941" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:410px;" allowTransparency="true"></iframe>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <div class="footer-bottom animated fadeInDown clearfix">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 ">
+                                <p>© Copyright 2014 Spa Dentaire Perrot /// Développement Web: Devcorp Media Inc Ile Perrot</p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12  clearfix">
+                                <ul class="footer-social-nav">
+                                    <li><a target="_blank" href="wwew"><i class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#top" id="scroll-top"></a>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/bootstrap.min.js?ver=3.1.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/flexslider/jquery.flexslider-min.js?ver=2.3.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.swipebox.min.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.isotope.min.js?ver=1.5.25'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.appear.js?ver=0.3.3'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+    <script type='text/javascript'>
+        jQuery(document).ready(function (jQuery) {
+            jQuery.datepicker.setDefaults({
+                "closeText": "Close"
+                , "currentText": "Today"
+                , "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+                , "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+                , "nextText": "Next"
+                , "prevText": "Previous"
+                , "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                , "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+                , "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"]
+                , "dateFormat": "MM d, yy"
+                , "firstDay": 1
+                , "isRTL": false
+            });
+        });
+    </script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.validate.min.js?ver=1.11.1'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.jplayer.min.js?ver=2.6.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.autosize.min.js?ver=1.18.7'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.meanmenu.min.js?ver=2.0.6'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/jquery.velocity.min.js?ver=0.0.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/select2.min.js?ver=4.0.3'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/comment-reply.min.js?ver=4.7.1'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-content/themes/inspiry-medicalpress/js/custom.js?ver=1.0'></script>
+    <script type='text/javascript' src='http://www.spadentaireperrot.com/wp-includes/js/wp-embed.min.js?ver=4.7.1'></script>
 </body>
 
 </html>
